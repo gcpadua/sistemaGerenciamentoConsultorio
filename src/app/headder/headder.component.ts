@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 
 @Component({
   selector: "app-headder",
@@ -6,6 +6,9 @@ import { Component } from "@angular/core";
   styleUrls: ["./headder.component.css"]
 
 })
-export class HeadderComponent {
-  title = "My First Angular App";
+export class HeadderComponent implements OnInit{
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 }
