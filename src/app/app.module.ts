@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeadderComponent } from "./headder/headder.component";
+import { CadastroPacientesComponent } from './cadastro-pacientes/cadastro-pacientes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadderComponent
+    HeadderComponent,
+    CadastroPacientesComponent
   ],
   imports: [
     BrowserModule

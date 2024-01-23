@@ -7,7 +7,8 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<app-headder></app-headder>
+<app-headder (selectedFeature)="selectionHandler($event)"></app-headder>
+<p>{{ selection }}</p>
 
 <style>
   :host {
